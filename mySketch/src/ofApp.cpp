@@ -3,6 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup(){
 
+    ofSetCircleResolution(64);
     ofBackground(0);
 
 }
@@ -16,7 +17,8 @@ void ofApp::update(){
 void ofApp::draw(){
  
     ofSetColor(0, 200, 0);
-    ofCircle(100, 100, 100);
+    ofCircle(100, 100, 300);
+    
 }
 
 //--------------------------------------------------------------
